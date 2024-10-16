@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tutorial/examples"
+	"tutorial/server"
 )
 
 func main() {
@@ -25,5 +25,7 @@ func main() {
 	// basic.Command()
 	// exercises.Run()
 	// exercises.Dup1()
-	examples.Dup2()
+	// examples.Dup3()
+
+	server.Server3()
 }
