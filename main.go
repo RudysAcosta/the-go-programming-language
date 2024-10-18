@@ -1,7 +1,8 @@
 package main
 
 import (
-	"tutorial/server"
+	"fmt"
+	"tutorial/exercises"
 )
 
 func main() {
@@ -27,5 +28,7 @@ func main() {
 	// exercises.Dup1()
 	// examples.Dup3()
 
-	server.Server3()
+	//server.Server3()
+
+	fmt.Println(exercises.CToF(32))
 }
